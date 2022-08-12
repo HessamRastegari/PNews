@@ -1,4 +1,4 @@
-package hessam.rastegari.pnewsapp.domain
+package hessam.rastegari.pnewsapp.domain.repository
 
 import hessam.rastegari.pnewsapp.data.model.artist.Artist
 import hessam.rastegari.pnewsapp.data.model.movie.Movie

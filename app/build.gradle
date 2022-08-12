@@ -48,7 +48,7 @@ dependencies {
     def lifecycle_version = "2.6.0-alpha01"
     def arch_version = "2.1.0"
     def room_version = "2.4.3"
-    def coroutines_version = "1.6.21"
+    def coroutines_version = "1.6.4"
     def dagger_version = "2.43.2"
     def retrofit_version = "2.9.0"
     def okhttp_version = "4.10.0"

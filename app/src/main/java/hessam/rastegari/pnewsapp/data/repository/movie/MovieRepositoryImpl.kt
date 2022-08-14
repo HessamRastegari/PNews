@@ -1,4 +1,4 @@
-package hessam.rastegari.pnewsapp.data.repository
+package hessam.rastegari.pnewsapp.data.repository.movie
 
 import android.util.Log
 import hessam.rastegari.pnewsapp.data.model.movie.Movie
@@ -10,7 +10,8 @@ import hessam.rastegari.pnewsapp.domain.repository.MovieRepository
 class MovieRepositoryImpl(
     private val movieRemoteDatasource: MovieRemoteDatasource,
     private val movieLocalDatasource: MovieLocalDatasource,
-    private val movieCacheDatasource: MovieCacheDatasource
+    private val movieCacheDatasource: MovieCacheDatasource,
+
 ) : MovieRepository {
     override suspend fun getMovies(): List<Movie>? {
         return getMoviesFromCache()

@@ -7,6 +7,6 @@ import retrofit2.Response
 
 interface ArtistLocalDatasource {
     suspend fun getArtistFromDB():List<Artist>
-    suspend fun saveArtistToDB(movies:List<Artist>)
+    suspend fun saveArtistToDB(artist:List<Artist>)
     suspend fun clearAll()
 }

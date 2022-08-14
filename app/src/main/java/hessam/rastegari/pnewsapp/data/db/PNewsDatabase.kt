@@ -15,6 +15,6 @@ abstract class PNewsDatabase : RoomDatabase() {
 
 
     abstract fun movieDao(): MovieDAO
-    abstract fun TVShowDAO(): TVShowDAO
-    abstract fun ArtistDAO(): ArtistDAO
+    abstract fun tvShowDAO(): TVShowDAO
+    abstract fun artistDAO(): ArtistDAO
 }

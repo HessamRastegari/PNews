@@ -1,4 +1,4 @@
-package hessam.rastegari.pnewsapp.presentation.di
+package hessam.rastegari.pnewsapp.presentation.di.core
 
 import dagger.Module
 import dagger.Provides

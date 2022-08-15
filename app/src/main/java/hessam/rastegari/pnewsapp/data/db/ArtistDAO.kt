@@ -18,3 +18,4 @@ interface ArtistDAO {
     @Query("SELECT * FROM popular_artists")
     suspend fun getArtists():List<Artist>
 }
+

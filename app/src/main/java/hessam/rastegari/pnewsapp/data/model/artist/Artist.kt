@@ -8,18 +8,18 @@ import com.google.gson.annotations.SerializedName
 @Entity(tableName = "popular_artists")
 data class Artist(
     @SerializedName("adult")
-    val adult: Boolean,
+    val adult: Boolean?,
     @SerializedName("gender")
-    val gender: Int,
+    val gender: Int?,
     @PrimaryKey
     @SerializedName("id")
     val id: Int,
     @SerializedName("known_for_department")
-    val knownForDepartment: String,
+    val knownForDepartment: String?,
     @SerializedName("name")
-    val name: String,
+    val name: String?,
     @SerializedName("popularity")
-    val popularity: Double,
+    val popularity: Double?,
     @SerializedName("profile_path")
-    val profilePath: String
+    val profilePath: String?
 )

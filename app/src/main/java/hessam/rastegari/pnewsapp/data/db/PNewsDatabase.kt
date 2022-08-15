@@ -8,7 +8,7 @@ import hessam.rastegari.pnewsapp.data.model.tvshow.TVShow
 
 @Database(
     entities = [Artist::class, Movie::class, TVShow::class],
-    version = 1,
+    version = 3,
     exportSchema = false
 )
 abstract class PNewsDatabase : RoomDatabase() {
